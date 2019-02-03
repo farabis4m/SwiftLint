@@ -41,6 +41,12 @@
 * Fix `lower_acl_than_parent` when linting with Swift 5.  
   [JP Simard](https://github.com/jpsim)
   [#2607](https://github.com/realm/SwiftLint/issues/2607)
+
+* Fix excessive `superfluous_disable_command` violations being reported when
+  using an invalid rule identifier in a disable command.  
+  [Marcelo Fabri](https://github.com/marcelofabri)
+  [#2623](https://github.com/realm/SwiftLint/issues/2623)
+
   
 ## 0.30.1: Localized Stain Remover
 
