@@ -27,3 +27,5 @@ func quietOption(action: String) -> Option<Bool> {
                   usage: "don't print status logs like '\(action.capitalized) <file>' & " +
                     "'Done \(action)'")
 }
+
+
